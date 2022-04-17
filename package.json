@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run build:clean && cross-env NODE_ENV=production webpack --progress --colors",
     "build:clean": "rimraf ./dist",
-    "start": "nodemon server",
+    "start": "node index",
     "start:production": "cross-env NODE_ENV=production node server",
     "production": "npm run build",
     "postinstall": "npm run build",
